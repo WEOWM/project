@@ -1,0 +1,28 @@
+.layout-body {
+  display: flex;
+}
+.side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 255px;
+  background-color: #0b3366;
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 16px;
+  font-style: line height 16px;
+  color: #f6f6f6;
+}
+
+.content {
+  background-color: #f6f6f6;
+  height: 100vh;
+  color: #111;
+  overflow-y: auto;
+  margin-left: 255px;
+  padding: 20px;
+}
+body {
+  overflow-y: hidden;
+}
